@@ -75,6 +75,8 @@
                     " and you are reading in class : " + $(".class").val() + "'" + $(".section").val().toUpperCase() + "'.";
                 $("h3").text(name);
 
+                var tnk = "Thank you " + $(".name").val() + "!";
+                $("#tnk").text(tnk);
                 // var age = "Your age is " + $(this).val();
             })
             .keyup();
